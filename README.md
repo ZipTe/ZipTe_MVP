@@ -1,7 +1,5 @@
 # 0. Getting Started (시작하기)
-```bash
-서비스 링크 추가 예정
-```
+<img width="739" alt="스크린샷 2025-01-23 02 24 46" src="https://github.com/user-attachments/assets/878a58e9-8b68-4818-9ad8-2159cb83db50" />
 
 <br/>
 <br/>
