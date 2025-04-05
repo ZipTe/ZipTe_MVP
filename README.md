@@ -1,17 +1,14 @@
-# 0. Getting Started (시작하기)
-<img width="739" alt="스크린샷 2025-01-23 02 24 46" src="https://github.com/user-attachments/assets/878a58e9-8b68-4818-9ad8-2159cb83db50" />
-
-<br/>
-<br/>
+# 0. 현재 제작중인 프로젝트
+- [헥사고 기반 MSA 프로젝트 - 플랫폼 ](https://github.com/ZipTe/ZipTe_Platform)
+- [헥사고 기반 MSA 프로젝트 - 알림센터 ](https://github.com/ZipTe/ZipTe_Notification)
+- [헥사고 기반 MSA 프로젝트 - 유저 서비스 ](https://github.com/ZipTe/ZipTe_Member)
+- [헥사고 기반 MSA 프로젝트 - 커뮤니티 ](https://github.com/ZipTe/ZipTe_Community)
 
 # 1. Project Overview (프로젝트 개요)
 - 프로젝트 이름: ZIPTE
 - 프로젝트 설명: 1. 개인별 상황에 맞는 적절한 거주지를 추천합니다. 2.아파트에 대한 리뷰와 이야기를 나누는 커뮤니티 서비스를 제공합니다. 3. 같은 거주지에 거주하는 사람들을 위한 아파트별 쇼핑몰을 제공합니다
 - 프로젝트 기간 : 2024.10.27 ~ 2025.01.05 (1인 개발)
-
-<br/>
-<br/>
-
+  
 # 2. Team Member (팀원 소개)
 | 이도연 |
 |:------:|
@@ -19,8 +16,6 @@
 | BE |
 | [GitHub](https://github.com/doup2001) | 
 
-<br/>
-<br/>
 
 # 3. Key Features (주요 기능)
 - **회원가입**:
@@ -85,27 +80,22 @@
   - 좋아요 -> 싫어요하려면 좋아요 취소하고 싫어요를 눌러야한다.
 
 
-<br/>
-<br/>
-
 # 4. Technology Stack (기술 스택)
-## 5. Backend
+## Backend
 |  |  |  |
 |-----------------|-----------------|-----------------|
 | SpringBoot    |  <img src="https://github.com/user-attachments/assets/43d80a85-2060-4475-95a8-fc402f837aa0" alt="SpringBoot" width="100">    | 3.3.4  |
 | SpringSecurity    |  <img src="https://github.com/user-attachments/assets/7eafc435-a1b9-47ab-bbc2-6ac02d21a4f0" alt="SpringSecurity" width="100">    |  |
 
-<br/>
 
-## 6. Cooperation
+## 5. Cooperation
 |  |  |
 |-----------------|-----------------|
 | Git    |  <img src="https://github.com/user-attachments/assets/483abc38-ed4d-487c-b43a-3963b33430e6" alt="git" width="100">    |
 | Notion    |  <img src="https://github.com/user-attachments/assets/34141eb9-deca-416a-a83f-ff9543cc2f9a" alt="Notion" width="100">    |
 
-<br/>
 
-# 7. Project Structure (프로젝트 구조)
+# 6. Project Structure (프로젝트 구조)
 ```plaintext
 │   │       ├── main
 │   │       │   └── org
@@ -214,10 +204,8 @@
 │   │       │   └── reviewImage
 ```
 
-<br/>
-<br/>
 
-# 8. Development Workflow (개발 워크플로우)
+# 7. Development Workflow (개발 워크플로우)
 ## 브랜치 전략 (Branch Strategy)
 우리의 브랜치 전략은 Git Flow를 기반으로 하며, 다음과 같은 브랜치를 사용합니다.
 
@@ -231,10 +219,7 @@
 - {feat} Branch
   - 모든 기능 개발은 feat 브랜치에서 이루어집니다.
 
-<br/>
-<br/>
-
-# 9. 커밋 컨벤션
+# 8. 커밋 컨벤션
 
 ## type 종류
 ```
@@ -247,50 +232,5 @@ test : 테스트 코드, 리펙토링 테스트 코드 추가
 chore : 설정 추가
 ```
 
-<br/>
-
-## 커밋 이모지
-```
-== 코드 관련
-📝	코드 작성
-🔥	코드 제거
-♻️️	코드 리팩토링
-
-== 문서&파일
-📰	새 파일 생성
-♻️️	파일 제거
-📚	문서 작성
-
-== 버그
-🐛	버그 리포트
-🚑	버그를 고칠 때
-
-== 기타
-🐎	성능 향상
-✨	새로운 기능 구현
-💡	새로운 아이디어
-🚀	배포
-```
-
-<br/>
-
-## 커밋 예시
-```
-== ex1
-✨Feat: "회원 가입 기능 구현"
-
-SMS, 이메일 중복확인 API 개발
-
-== ex2
-🔨chore: styled-components 라이브러리 설치
-
-UI개발을 위한 라이브러리 styled-components 설치
-```
-
-<br/>
-<br/>
-
 # 10. ERD
-![ERDV62](https://github.com/user-attachments/assets/2e260523-5524-4c9a-a8af-4675455614ab)
-
-
+<img src="https://github.com/user-attachments/assets/2e260523-5524-4c9a-a8af-4675455614ab" alt="ERD">
